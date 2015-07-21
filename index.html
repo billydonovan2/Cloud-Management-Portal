@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="us">
+<head>
+<meta charset="utf-8">
+<title>CMP main page</title>
+<link href="css/jquery-ui.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+	<div id="tabs">
+		<div class="mainmenu">
+			<h1 id="home_h">
+				<a href="#" id="home" class="menuitem">Cloud Management Portal</a>
+			</h1>
+		</div>
+		<ul id="tabset">
+			<li><a href="#tabs-1">Cloud Management/Deploy</a></li>
+			<li><a href="#tabs-2">Monitoring</a></li>
+			<li><a href="#tabs-3">Ticketing/Communication</a></li>
+			<li><a href="#tabs-4">Documentation</a></li>
+		</ul>
+		<div id="tabs-1">
+			<div class="accordion-wrap">
+				<!-- SaaS - Cmanager -->
+				<h2>SaaS - Cmanager</h2>
+				<div id="accordion" class="accordion">
+					<h3>QA</h3>
+					<div>
+						<a
+							title="This is a temporary link. Soon the links will be divided by instances"
+							href="http://{{modulename}}.{{Company name}}" class="">cmanager
+							QA</a>
+					</div>
+					<h3>DEV</h3>
+					<div>
+						<a
+							title="This is a temporary link. Soon the links will be divided by instances"
+							href="http://{{modulename}}.{{Company name}}/cmanager/#dev" class="">cmanager
+							Dev</a>
+					</div>
+					<h3>TEST</h3>
+					<div>
+						<a
+							title="This is a temporary link. Soon the links will be divided by instances"
+							href="http://{{modulename}}.{{Company name}}/cmanager/#test" class="">cmanager
+							Test</a>
+					</div>
+					<h3>TRAIN</h3>
+					<div>
+						<a
+							title="This is a temporary link. Soon the links will be divided by instances"
+							href="http://{{modulename}}.{{Company name}}/cmanager/#train" class="">cmanager
+							Train</a>
+					</div>
+					<h3>PROD</h3>
+					<div>
+						<a
+							title="This is a temporary link. Soon the links will be divided by instances"
+							href="http://{{modulename}}.{{Company name}}/cmanager/#prod" class="">cmanager
+							Prod</a>
+					</div>
+				</div>
+			</div>
+			<div class="accordion-wrap">
+				<!-- PaaS – Vmanager -->
+				<h2>PaaS – Vmanager</h2>
+				<div id="accordion" class="accordion">
+					<h3>LAB</h3>
+					<div>
+						<a class="" href="http://{{modulename}}-lab.{{Company name}}">vmanager-lab.{{Company name}}</a>
+						<span> *</span>
+					</div>
+					<h3>QA</h3>
+					<div>
+						<a class="" href="http://vmanager.ua1">vmanager.ua1</a> <span>
+							*</span>
+					</div>
+					<h3>DEMO</h3>
+					<div>
+						<a class="" href="http://{{modulename}}-demo.{{Company name}}">vmanager-demo.{{Company name}}</a>
+						<span> OUT OF ORDER - USE TEST VMANAGER FOR DEMO</span>
+					</div>
+					<h3>TEST</h3>
+					<div>
+						<a class="" href="http://{{modulename}}-tst.{{Company name}}">vmanager-tst.{{Company name}}</a>
+						<span> *</span>
+					</div>
+					<h3>PROD</h3>
+					<div>
+						<a class="" href="http://{{modulename}}-prod.{{Company name}}">vmanager-prod.{{Company name}}</a>
+						<span> *</span>
+					</div>
+				</div>
+				<span>* Authorization required</span>
+			</div>
+			<div class="accordion-wrap">
+				<!-- IaaS – Hmanager -->
+				<h2>IaaS – Hmanager</h2>
+				<div id="accordion" class="accordion">
+					<h3>QA</h3>
+					<div>
+						<p>This part is under construction at the moment and soon it
+							will be available</p>
+					</div>
+					<h3>DEV</h3>
+					<div>
+						<p>This part is under construction at the moment and soon it
+							will be available</p>
+					</div>
+					<h3>TEST</h3>
+					<div>
+						<p>This part is under construction at the moment and soon it
+							will be available</p>
+					</div>
+					<h3>TRAIN</h3>
+					<div>
+						<p>This part is under construction at the moment and soon it
+							will be available</p>
+					</div>
+					<h3>PROD</h3>
+					<div>
+						<p>This part is under construction at the moment and soon it
+							will be available</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="tabs-2">
+			<h2>Nagios</h2>
+			<div class="accordion">
+				<!-- Nagios MIA DC -->
+				<h3>Nagios MIA DC</h3>
+				<div>
+					<a target="new" class="" href="http://nagios.{{Company name}}">Nagios
+						MIA DC</a>
+				</div>
+				<!-- Nagios MAD DC -->
+				<h3>Nagios MAD DC</h3>
+				<div>
+					<a target="new" class="" href="http://{{servername}}.{{Company name}}">Nagios
+						MIA DC</a>
+				</div>
+				<!-- Nagios DEMO DC -->
+				<h3>Nagios DEMO DC</h3>
+				<div>
+					<a target="new" class="" href="http://{{servername}}.{{Company name}}">Nagios
+						MIA DC</a>
+				</div>
+			</div>
+		</div>
+		<div id="tabs-3">
+			<h2>Ticketing/Communication</h2>
+			<div class="accordion">
+				<h3>Mantis</h3>
+				<div>
+					<a href="http://mantis.{{Company name}}">mantis.{{Company name}}</a>
+				</div>
+				<h3>Customer Portal – Zendesk</h3>
+				<div>
+					<a href="https://zendesk.com">Customer Portal –
+						Zendesk</a>
+				</div>
+				<h3>Customer Portal Old</h3>
+				<div>
+					<a href="https://customercare.{{Company name}}/">https://customercare.{{Company name}}/</a>
+				</div>
+				<h3>Notification Tool</h3>
+				<div>
+					<a
+						href="http://sdtools.{{Company name}}/maintenance_notifications_new/">http://sdtools.{{Company name}}/maintenance_notifications_new/</a>
+				</div>
+			</div>
+		</div>
+		<div id="tabs-4">
+			<h2>Documentation</h2>
+			<div class="accordion">
+				<h3>Wiki</h3>
+				<div>
+					<a href="https://wiki.{{Company name}}">Wiki</a>
+				</div>
+				<h3>CMDB View</h3>
+				<div>
+					<a href="https://mantis.{{Company name}}/cmdb/index.php">CMDB View</a>
+				</div>
+				<h3>CMDB Live</h3>
+				<div>
+					<a href="http://sdtools.ua1/cmdb/">CMDB Live</a>
+				</div>
+			</div>
+		</div>
+		<div class="holder accordion-wrap hidden">
+			<h2>Hello</h2>
+			<div id="result_id"></div>
+			<form class="" id="form_id" action="javascript:void();" method="POST">
+				<div class="wrap clearfix">
+					<label for="1">Ваше имя: *</label><input id="1" type="text"
+						name="name" required placeholder="Your name" autofocus />
+				</div>
+				<input type="submit"
+					onclick="JqAjaxRequest('result_id', 'form_id', 'js/jquery-ui.php')"
+					value="send" />
+			</form>
+		</div>
+	</div>
+</body>
+</html>

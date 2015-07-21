@@ -1,0 +1,122 @@
+* {
+	font: 16px/18px Arial, Helvetica, sans-serif;
+	color: rgb(133, 133, 133);
+}
+
+body {
+	font-family: Verdana, sans-serif;
+	margin: 0px;
+	padding: 5px;
+}
+a{text-decoration: underline;}
+a:hover{text-decoration: none;}
+.ui-widget-header {
+	background-color: rgb(255, 158, 128);
+}
+
+.ui-accordion .ui-accordion-content {
+	padding: 2.2em 2.2em;
+}
+
+.accordion-wrap {
+	border: 1px solid #ccc;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 3px 2px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 3px 2px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: 3px 2px 5px 0px rgba(50, 50, 50, 0.75);
+	padding: 5px;
+	margin: 0 0 20px;
+}
+
+h2 {
+	font: 20px/24px Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+h3.green {
+	color: green !important;
+}
+
+h3.blue {
+	color: #00E1FF !important;
+}
+
+h3.orange {
+	color: #FFBF00 !important;
+}
+
+h3.red {
+	color: #FF0000 !important;
+}
+
+.mainmenu {
+	background-color: #8B8B8B;
+	border-radius: 4px 4px 0px 0px;
+	-moz-border-radius: 4px 4px 0px 0px;
+	-webkit-border-radius: 4px 4px 0px 0px;
+}
+
+.mainmenu h1 {
+	margin: 0;
+	padding: 10px 0 10px 10px;
+}
+
+.mainmenu h1 a {
+	font-weight: bold !important;
+	color: #eb8f00;
+	font: 20px/24px Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	-moz-text-shadow: 1px 2px 3px #666;
+	-webkit-text-shadow: 1px 2px 3px #666;
+	text-shadow: 1px 2px 3px #666;
+}
+
+.accordion h1 a:hover {text-decoration: underline;}
+.accordion a:active, .accordion a:visited:active {font-weight: bold;}
+.accordion span{color:#666;}
+.wrap{
+	padding: 0 0 10px;
+}
+#result_id{
+	margin: 0 0 10px;
+}
+.holder{
+	width:440px; 
+    height:auto;
+    overflow: hidden;
+}
+.holder label{
+	float: left;
+}
+.hidden{
+	display: none;
+	z-index: -100;
+	position: relative;;
+}
+.holder-show{
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	padding: 5px;
+	background: #ccc;
+	z-index: 1000;
+	margin-top: -170px;
+    margin-left: -220px; 
+	
+}
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+ 
+.clearfix:after {
+  clear: both;
+}
+ 
+.clearfix {
+  *zoom: 1;
+}
